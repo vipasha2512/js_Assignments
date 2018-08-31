@@ -1,0 +1,59 @@
+angular : 
+1. for creating single page application
+2. means one main page in which all the views will be rendered.
+3. links are provided to go thru he pages.
+4. main app will get loaded with all the links and views will be rendered partially.
+5. Angular 1, 2 , 4 , 6
+6. 2 and 6 are similar bt in terms of optimization
+7. angular -cli is version 6 ie it is goint to download the latest application
+8. ng serve --open( angular command, reads all the files from angular.json)
+9. node is runtime created by google , designed by founders in google.
+10.package.json is used to maintain all the dependencies.
+11.npm (node package mananger) used to handle all the dependencies.
+12.npm install will read the dependency and give the dependency name will install the particular.
+13.index main file , src/assets : public files
+styles : style
+scripts : for the global scripts
+main entry point of the application : main.ts
+inside the src directory
+bootstrapModule :  start ur application usin the module which is entioned in the parenthesis.
+14. application needs to be create :
+if login page :
+component  => (.ts write file, .html template,.css style) - enacpsulated unit
+{ set of import statements, @Declarators(specify meta data), {{}} any expression return get evaluated.}
+logincomponent
+reg
+home
+
+Services => functions in js, resuablitity to use the code in different parts of the application
+use the service in the component it is called DI.
+15. <root>
+select the component, fetch the data from the component. the app component.
+16. ng g component products(.ts)/products(dir)
+again use ng serve
+authguard in providers
+observables is way of handling the asynch request in angular
+
+dual data binding ngModel, forms Module import
+custom pipe to filter the list, modify transform tehopd
+connection parent and chil
+routing, router module, forroot , inavlid routes usin **
+services using cli, lifecycle method, ngOnInit, ngOnChanges, 
+
+Angular js 
+1. <div ng-controller="mycntrl">
+</div>
+then define the same controller in js 
+module : all the building blocks of java script is in the module.
+first module app module is created : component
+var app = angular.module('myapp',[]);
+app.controller('mycntrl",function(){
+$scope.org = "Marlabs"
+});
+
+1. auth guard, 
+this.navigate 
+});
+
+
+
